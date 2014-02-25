@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Kitpay by payponty</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Kitpay</h1>
+        <p>Gem for the PayPonty API</p>
+
+        <p class="view"><a href="https://github.com/payponty/kitpay">View the Project on GitHub <small>payponty/kitpay</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/payponty/kitpay/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/payponty/kitpay/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/payponty/kitpay">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a name="kitpay" class="anchor" href="#kitpay"><span class="octicon octicon-link"></span></a>Kitpay</h1>
+
+<p>PayPonty Ruby API</p>
+
+<p><a href="http://badge.fury.io/rb/kitpay"><img src="https://badge.fury.io/rb/kitpay.png" alt="Gem Version"></a></p>
+
+<h2>
+<a name="install" class="anchor" href="#install"><span class="octicon octicon-link"></span></a>Install</h2>
+
+<p>$ gem install kitpay</p>
+
+<h2>
+<a name="use" class="anchor" href="#use"><span class="octicon octicon-link"></span></a>Use</h2>
+
+<p>Use api clients example:</p>
+
+<pre><code>require 'kitpay'
+Kitpay.setup url: 'http://your-shop-name.myponty.com', login: 'api_key', password: 'password'
+#next step
+Kitpay.orders # to see yours orders
+</code></pre>
+
+<p>Use OAuth2 example:</p>
+
+<pre><code>require 'kitpay'
+Kitpay.setup url: 'http://your-best-domain.com', access_token: 'access token'
+#next step
+Kitpay.products # to see yours products
+</code></pre>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/payponty">payponty</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-39170694-2");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
