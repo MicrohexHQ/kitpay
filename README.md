@@ -1,4 +1,5 @@
 # Kitpay
+![](https://github.com/MicrohexHQ/kitpay/blob/master/U/AI/ArtBoard%20Image%20(639).jpg)
 
 PayPonty Ruby API
 
